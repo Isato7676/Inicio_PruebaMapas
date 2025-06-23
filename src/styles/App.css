@@ -40,3 +40,45 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.app-container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.game-header,
+.question-panel,
+.info-panel {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.game-header {
+  top: 10px;
+  left: 10px;
+}
+
+.question-panel {
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.info-panel {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
